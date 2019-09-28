@@ -22,4 +22,12 @@
         android:name="com.example.medhacks.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_test"
+        android:name="com.example.medhacks.ui.test.TestFragment"
+        android:label="@string/title_test"
+        tools:layout="@layout/fragment_test" />
+
+
 </navigation>
