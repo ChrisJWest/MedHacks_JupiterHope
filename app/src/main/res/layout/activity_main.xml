@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_rose_petals"
+    android:background="@mipmap/ic_slide_background"
     android:paddingTop="0in">
 
     <android.support.design.widget.BottomNavigationView
