@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.medhacks.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:label=""
         tools:layout="@layout/fragment_home" />
 
     <fragment
@@ -26,7 +26,7 @@
     <fragment
         android:id="@+id/navigation_test"
         android:name="com.example.medhacks.ui.test.TestFragment"
-        android:label="@string/title_test"
+        android:label=""
         tools:layout="@layout/fragment_test" />
 
 
