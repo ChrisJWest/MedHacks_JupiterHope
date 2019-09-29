@@ -13,21 +13,13 @@ import android.widget.TextView
 import android.widget.FrameLayout
 import android.widget.LinearLayout
 import android.view.ViewGroup
-
-
-
-
-
-
+import android.view.WindowManager
 
 
 // hello world
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE)
-
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
