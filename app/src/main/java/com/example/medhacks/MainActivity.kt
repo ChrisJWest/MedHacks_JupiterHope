@@ -3,17 +3,31 @@ package com.example.medhacks
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v7.app.AppCompatActivity
+import android.view.View
 import android.view.Window
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import android.widget.TextView
+import android.widget.FrameLayout
+import android.widget.LinearLayout
+import android.view.ViewGroup
+
+
+
+
+
+
+
+
 // hello world
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        //this.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE)
+
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

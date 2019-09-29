@@ -14,13 +14,13 @@
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.medhacks.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label=""
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.medhacks.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label=""
         tools:layout="@layout/fragment_notifications" />
 
     <fragment
